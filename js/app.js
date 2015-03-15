@@ -9,7 +9,7 @@
 var Header = React.createClass({
 	render: function () {
 		return (
-			<h1 className="title">{this.props.text}</h1>
+			<h1 className="grey-text text-darken-1">{this.props.text}</h1>
 		);
 	}
 });
@@ -18,7 +18,7 @@ var HomePage = React.createClass({
 	render: function () {
 		return (
 			<div>
-				<Header text="Employee Directory"/>
+				<Header text="org.eclipse.osgi.equinox"/>
 			</div>
 		);
 	}
